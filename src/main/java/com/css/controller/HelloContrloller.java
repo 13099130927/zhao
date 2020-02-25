@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloContrloller {
 
     @RequestMapping("info")
-    public  String info(){
-    return  "Hello Spring";
+    public String info() {
+        return "Hello Spring   hello zhaoyanming";
     }
     //开发人员又修改了一下下 在以下
 }
